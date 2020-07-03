@@ -33,15 +33,28 @@
 
       <div class="container-fluid my-3">
         <div class="row ">
-          <div class="col-6 ">
+          <div class="col-2 ">
+            <ul class="list-group">
+              <li class="list-group-item border-0"><h5>Find pages with</h5> </li>
+              <li class="list-group-item border-0"><p>all these words:</p></li>
+              <li class="list-group-item border-0"><p>this exact word or phrase:</p></li>
+              <li class="list-group-item border-0"><p>any of these words:</p></li>
+              <li class="list-group-item border-0"><p>none of these words:></p></li>
+            </ul>
+          </div>
+          <div class="col-6">
             <form action="https://google.com/search">
             <ul class="list-group">
-              <li class="list-group-item border-0"><p>all these words: <input type="text" name="as_q" class="ml-5"><span class="px-5 description">Type the important words: tri-colour rat terrier</span></p></li>
-              <li class="list-group-item border-0"><p>this exact word or phrase: <input type="text" class="ml-5" name="as_epq"><span class="px-5 description">Put exact words in quotes: "rat terrier"</span></p></li>
-              <li class="list-group-item border-0"><p>any of these words:<input type="text" class="ml-5" name="as_oq"><span class="px-5 description">Type OR between all the words you want: miniature OR standard</span></p></li>
-              <li class="list-group-item border-0"><p>none of these words:<input type="text" class="ml-5" name="as_eq"><span class="px-5 description">Put a minus sign just before words that you don't want</span></p></li>
+              <li class="list-group-item border-0"><span>To do this in the search box:</span> </li>
+              <li class="list-group-item border-0"><input type="text" name="as_q" ><span class="px-5 description">Type the important words: tri-colour rat terrier</span></li>
+              <li class="list-group-item border-0"><input type="text" name="as_epq"><span class="px-5 description">Put exact words in quotes: "rat terrier"</span></li>
+              <li class="list-group-item border-0"><input type="text" name="as_oq"><span class="px-5 description">Type OR between all the words you want: miniature OR standard</span></li>
+              <li class="list-group-item border-0"><input type="text" name="as_eq"><span class="px-5 description">Put a minus sign just before words that you don't want</span></li>
             </ul>
-            <input type="submit" value="Advanced Search" class="btn btn-outline-dark">
+            <div class="text-right">
+              <input type="submit" value="Advanced Search" class="btn btn-primary">
+            </div>
+
             </form>
           </div>
         </div>
